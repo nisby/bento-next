@@ -103,7 +103,7 @@ export const config: Config = {
     [
       {
         name: 'Reddit', // set the name of the card
-        icon: 'fab-github', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
+        icon: 'fab-reddit', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
         url: 'https://reddit.com', // provide a link to the page.
       },
       {
