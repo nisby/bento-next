@@ -148,7 +148,7 @@ export const config: Config = {
       {
         name: 'Pi-hole',
         icon: 'apple-whole',
-        url: 'pi-hole.nisby44.duckdns.org',
+        url: 'pihole.nisby44.duckdns.org',
       },
       {
         name: 'Amazon',
