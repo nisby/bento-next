@@ -108,8 +108,8 @@ export const config: Config = {
       },
       {
         name: 'Navidrome',
-        icon: 'headphones',
-        url: 'music.nisby44.duckdns.org',
+        icon: 'fas-headphones',
+        url: 'http://music.nisby44.duckdns.org',
       },
       {
         name: 'Spotify',
@@ -118,7 +118,7 @@ export const config: Config = {
       },
       {
         name: 'Calendar',
-        icon: 'calendar',
+        icon: 'far-calendar',
         url: 'https://calendar.google.com/calendar/r',
       },
       {
@@ -137,17 +137,17 @@ export const config: Config = {
     [
       {
         name: 'Tenda',
-        icon: 'router',
+        icon: 'fas-broadcast-tower',
         url: 'http://tenda.nisby44.duckdns.org/',
       },
       {
         name: 'casaOS',
-        icon: 'server',
+        icon: 'fas-server',
         url: 'http://casaos.nisby44.duckdns.org/#/',
       },
       {
         name: 'feedly',
-        icon: 'rss',
+        icon: 'fas-rss-square',
         url: 'https://feedly.com/i/my',
       },
       {
@@ -162,7 +162,7 @@ export const config: Config = {
       },
       {
         name: 'calcio',
-        icon: 'trophy',
+        icon: 'fas-trophy',
         url: 'https://calcio.skin/streaming-gratis-calcio-1.php',
       },
     ],
