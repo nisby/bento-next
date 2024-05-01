@@ -122,9 +122,9 @@ export const config: Config = {
         url: 'https://calendar.google.com/calendar/r',
       },
       {
-        name: 'Reddit',
-        icon: 'fab-reddit',
-        url: 'https://reddit.com',
+        name: 'Feedly',
+        icon: 'rss-square',
+        url: 'https://feedly.com/i/my',
       },
       {
         name: 'YouTube',
@@ -146,9 +146,9 @@ export const config: Config = {
         url: 'http://casaos.nisby44.duckdns.org/#/',
       },
       {
-        name: 'feedly',
-        icon: 'rss-square',
-        url: 'https://feedly.com/i/my',
+        name: 'Pi-hole',
+        icon: 'apple-whole',
+        url: 'pi-hole.nisby44.duckdns.org',
       },
       {
         name: 'Amazon',
