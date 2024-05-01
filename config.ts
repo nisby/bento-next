@@ -11,7 +11,7 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
+  name: 'Matteo',
   openInNewTab: true,
   title: 'Bento',
 
@@ -28,7 +28,7 @@ export const config: Config = {
   },
 
   // Theme
-  theme: 'bento',
+  theme: 'catppuccin-mocha',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
@@ -61,7 +61,7 @@ export const config: Config = {
   greetingNight: 'Sweet dreams,',
 
   // Layout
-  layout: 'bento', // 'bento', 'lists', 'buttons'
+  layout: 'buttons', // 'bento', 'lists', 'buttons'
 
   // Weather
   weatherKey: import.meta.env.VITE_API_KEY, // Set your OpenWeatherMap key in .env - Move the included .env.example to .env
@@ -70,8 +70,8 @@ export const config: Config = {
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // Request location from the browser. If false, or location is denied, use the coordinates below.
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '43.764',
+  defaultLongitude: '13.147',
 
   // Automatic theme switching:
   // "system" - Switches based on OS color preference
@@ -88,7 +88,7 @@ export const config: Config = {
   // If themeButton is set to false, the theme can only be set in this file.
   // Disabling the weather component may cause issues with location-based light/dark switching.
   componentsEnabled: {
-    searchBar: true,
+    searchBar: false,
     themeButton: true,
     clock: true,
     greeter: true,
@@ -102,19 +102,19 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        name: 'Github', // set the name of the card
+        name: 'Reddit', // set the name of the card
         icon: 'fab-github', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
-        url: 'https://github.com/', // provide a link to the page.
+        url: 'https://reddit.com', // provide a link to the page.
       },
       {
-        name: 'Mail',
-        icon: 'envelope',
-        url: 'https://mail.protonmail.com/',
+        name: 'Navidrome',
+        icon: 'headphones',
+        url: 'music.nisby44.duckdns.org',
       },
       {
-        name: 'Todoist',
-        icon: 'list-ol',
-        url: 'https://todoist.com',
+        name: 'Spotify',
+        icon: 'fab-spotify',
+        url: 'https://open.spotify.com',
       },
       {
         name: 'Calendar',
@@ -127,33 +127,33 @@ export const config: Config = {
         url: 'https://reddit.com',
       },
       {
-        name: 'Odysee',
+        name: 'YouTube',
         icon: 'fab-youtube',
-        url: 'https://odysee.com/',
+        url: 'https://youtube.com/',
       },
     ],
     // Second buttons group
     // You muse use the 'buttons' layout to use this group.
     [
       {
-        name: 'Music',
-        icon: 'fab-spotify',
-        url: 'https://open.spotify.com',
+        name: 'Tenda',
+        icon: 'router',
+        url: 'http://tenda.nisby44.duckdns.org/',
       },
       {
-        name: 'twitter',
-        icon: 'fab-twitter',
-        url: 'https://twitter.com/',
+        name: 'casaOS',
+        icon: 'server',
+        url: 'http://casaos.nisby44.duckdns.org/#/',
       },
       {
-        name: 'bot',
-        icon: 'fab-discord',
-        url: 'https://discord.com/app',
+        name: 'feedly',
+        icon: 'rss',
+        url: 'https://feedly.com/i/my',
       },
       {
         name: 'Amazon',
         icon: 'fab-amazon',
-        url: 'https://amazon.com/',
+        url: 'https://amazon.it/',
       },
       {
         name: 'Hashnode',
@@ -161,9 +161,9 @@ export const config: Config = {
         url: 'https://hashnode.com/',
       },
       {
-        name: 'Figma',
-        icon: 'fab-figma',
-        url: 'https://figma.com/',
+        name: 'calcio',
+        icon: 'trophy',
+        url: 'https://calcio.skin/streaming-gratis-calcio-1.php',
       },
     ],
   ],
